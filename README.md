@@ -1,4 +1,4 @@
-- [1. CSDN -\> Markdown](#1-csdn---markdown)
+- [1. CSDN to Markdown](#1-csdn---markdown)
 - [2.Anaconda](#2anaconda)
 - [3.CMD](#3cmd)
 - [4. Jupyter](#4-jupyter)
