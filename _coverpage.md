@@ -10,5 +10,5 @@
 - Try New
 - Develop Better
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/Bayyys)
 [Get Started](README.md)
