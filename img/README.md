@@ -1,0 +1,1 @@
+<center> <img src="img/girl.jpg" alt="img" style="zoom: 40%;" /> </center>

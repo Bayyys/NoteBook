@@ -1,5 +1,3 @@
-:hugs:
-
 # 1. CSDN -> Markdown
 
 F12 -->  [markdown编辑器 - 在线工具 (tool.lu)](https://tool.lu/markdown/)
@@ -1942,7 +1940,6 @@ docker 官方的镜像托管有时候上传和下载都太慢了，如果你想�
    "picgo-plugin-smms-user": true
     }
     }
-```
 
 # 9.LaTeX
 

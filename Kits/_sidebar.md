@@ -1,0 +1,8 @@
+* [工具使用](kits/README.md)
+  * [1. Git](/Kits/1.Git.md)
+  * [2. Linux](/Kits/2.Linux.md)
+  * [3. CMD](/Kits/3.CMD.md)
+  * [4. Jupyter](/Kits/4.Jupyter.md)
+  * [5. Scoop](/Kits/5.Scoop.md)
+  * [6. Emacs](/Kits/6.Emacs.md)
+  * [7. LaTex](/Kits/7.LaTex.md)

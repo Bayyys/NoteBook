@@ -14,8 +14,12 @@
     <title>Bayyys docs</title>
     <!-- 主题样式 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-     <!-- 侧边栏插件的样式 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <!-- 箭头样式 -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
+    <!-- 文件夹样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+    <!-- 侧边栏插件的样式 -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
 
 </head>
 
@@ -24,14 +28,22 @@
     <script>
         window.$docsify = {
             name: "Bayyys docs",    // 侧边栏顶部的标题
+            // logo: ''
             loadSidebar: true,    // 加载侧边栏
-            subMaxLevel: 1,   // 侧边栏最大深度
+            subMaxLevel: 3,   // 侧边栏最大深度
+            sidebarDisplayLevel: 1, // 侧边栏显示的深度
             loadNavbar: true,   // 加载导航栏
             coverpage: true,    // 封面
             auto2top: true,   // 滚动时自动回到顶部
+            autoHeader: true,    // 自动添加标题
+            cornerExternalLinkTarget: '_self', // default: '_blank'
+            repo: 'https://github.com/Bayyys',
             // logo: "#/img/logo.png",   // 网站logo
-            homepage: '#',   // 首页
-            nameLink: '#',   // 网站标题链接
+            // homepage: '#',   // 首页
+            // nameLink: '#',   // 网站标题链接
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md'   // 侧边栏文件路径
+            },
             // 插件设置
             // -------------------------------
             // 搜索插件配置
@@ -82,6 +94,11 @@
                     label: "切记"
                 }
             },
+            // 页面右侧toc
+            toc: {
+                tocMaxLevel: 2,
+                target: "h2, h3, h4, h5, h6",
+            },
             sidebarDisplayLevel: 2, // 侧边栏显示的深度
             // 页脚信息插件
             loadFooter: true,   // 是否加载页脚信息
@@ -90,6 +107,8 @@
         }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- 多tab支持 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
     <!-- 搜索 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- 图片放大缩小支持 -->
@@ -106,6 +125,12 @@
     <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
     <!-- 代码复制粘贴板 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <!-- 侧边栏目录折叠 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- 页面右侧 TOC -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
+    <!-- emoji -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 
 </html>
